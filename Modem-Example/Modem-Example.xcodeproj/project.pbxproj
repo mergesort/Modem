@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B701BA3520E94F5E00BC07A3 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B701BA3420E94F5E00BC07A3 /* RootViewController.swift */; };
+		B701BA3720E94F6500BC07A3 /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B701BA3620E94F6500BC07A3 /* Tweet.swift */; };
+		B701BA3920E94F6D00BC07A3 /* TweetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B701BA3820E94F6D00BC07A3 /* TweetViewController.swift */; };
+		B701BA3B20E94F7700BC07A3 /* UNNotificationContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B701BA3A20E94F7700BC07A3 /* UNNotificationContentViewController.swift */; };
+		B701BA3D20E94F8500BC07A3 /* UIViewController+RouterPrintStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B701BA3C20E94F8500BC07A3 /* UIViewController+RouterPrintStack.swift */; };
+		B701BA3F20E94FD300BC07A3 /* UserActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B701BA3E20E94FD300BC07A3 /* UserActivityViewController.swift */; };
+		B701BA4F20E9503600BC07A3 /* UIViewController+Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = B701BA4220E9503600BC07A3 /* UIViewController+Router.swift */; };
+		B701BA5020E9503600BC07A3 /* PresentationContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B701BA4320E9503600BC07A3 /* PresentationContext.swift */; };
+		B701BA5120E9503600BC07A3 /* UserActivityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B701BA4420E9503600BC07A3 /* UserActivityType.swift */; };
+		B701BA5220E9503600BC07A3 /* UserActivityConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = B701BA4520E9503600BC07A3 /* UserActivityConvertible.swift */; };
+		B701BA5320E9503600BC07A3 /* Encodable+Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = B701BA4620E9503600BC07A3 /* Encodable+Dictionary.swift */; };
+		B701BA5420E9503600BC07A3 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = B701BA4720E9503600BC07A3 /* Router.swift */; };
+		B701BA5520E9503600BC07A3 /* PopoverConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = B701BA4820E9503600BC07A3 /* PopoverConfiguration.swift */; };
+		B701BA5620E9503600BC07A3 /* UIApplicationShortcutItem+UserActivityConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = B701BA4920E9503600BC07A3 /* UIApplicationShortcutItem+UserActivityConvertible.swift */; };
+		B701BA5720E9503600BC07A3 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = B701BA4A20E9503600BC07A3 /* Route.swift */; };
+		B701BA5820E9503600BC07A3 /* INShortcut+UserActivityConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = B701BA4C20E9503600BC07A3 /* INShortcut+UserActivityConvertible.swift */; };
+		B701BA5920E9503600BC07A3 /* URL+UserActivityConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = B701BA4D20E9503600BC07A3 /* URL+UserActivityConvertible.swift */; };
+		B701BA5A20E9503600BC07A3 /* UNNotificationContent+UserActivityConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = B701BA4E20E9503600BC07A3 /* UNNotificationContent+UserActivityConvertible.swift */; };
+		B7D254F320E910C400CCAB44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D254F220E910C400CCAB44 /* AppDelegate.swift */; };
+		B7D254F820E910C400CCAB44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7D254F620E910C400CCAB44 /* Main.storyboard */; };
+		B7D254FA20E910D100CCAB44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7D254F920E910D100CCAB44 /* Assets.xcassets */; };
+		B7D254FD20E910D100CCAB44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7D254FB20E910D100CCAB44 /* LaunchScreen.storyboard */; };
+		B7D2550820E910D100CCAB44 /* Modem_ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D2550720E910D100CCAB44 /* Modem_ExampleTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B7D2550420E910D100CCAB44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7D254E720E910C300CCAB44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7D254EE20E910C400CCAB44;
+			remoteInfo = "Modem-Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B701BA3420E94F5E00BC07A3 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		B701BA3620E94F6500BC07A3 /* Tweet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
+		B701BA3820E94F6D00BC07A3 /* TweetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetViewController.swift; sourceTree = "<group>"; };
+		B701BA3A20E94F7700BC07A3 /* UNNotificationContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UNNotificationContentViewController.swift; sourceTree = "<group>"; };
+		B701BA3C20E94F8500BC07A3 /* UIViewController+RouterPrintStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+RouterPrintStack.swift"; sourceTree = "<group>"; };
+		B701BA3E20E94FD300BC07A3 /* UserActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserActivityViewController.swift; sourceTree = "<group>"; };
+		B701BA4220E9503600BC07A3 /* UIViewController+Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Router.swift"; sourceTree = "<group>"; };
+		B701BA4320E9503600BC07A3 /* PresentationContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentationContext.swift; sourceTree = "<group>"; };
+		B701BA4420E9503600BC07A3 /* UserActivityType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserActivityType.swift; sourceTree = "<group>"; };
+		B701BA4520E9503600BC07A3 /* UserActivityConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserActivityConvertible.swift; sourceTree = "<group>"; };
+		B701BA4620E9503600BC07A3 /* Encodable+Dictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Encodable+Dictionary.swift"; sourceTree = "<group>"; };
+		B701BA4720E9503600BC07A3 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		B701BA4820E9503600BC07A3 /* PopoverConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopoverConfiguration.swift; sourceTree = "<group>"; };
+		B701BA4920E9503600BC07A3 /* UIApplicationShortcutItem+UserActivityConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplicationShortcutItem+UserActivityConvertible.swift"; sourceTree = "<group>"; };
+		B701BA4A20E9503600BC07A3 /* Route.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		B701BA4C20E9503600BC07A3 /* INShortcut+UserActivityConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "INShortcut+UserActivityConvertible.swift"; sourceTree = "<group>"; };
+		B701BA4D20E9503600BC07A3 /* URL+UserActivityConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URL+UserActivityConvertible.swift"; sourceTree = "<group>"; };
+		B701BA4E20E9503600BC07A3 /* UNNotificationContent+UserActivityConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UNNotificationContent+UserActivityConvertible.swift"; sourceTree = "<group>"; };
+		B7D254EF20E910C400CCAB44 /* Modem-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Modem-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7D254F220E910C400CCAB44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B7D254F720E910C400CCAB44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B7D254F920E910D100CCAB44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B7D254FC20E910D100CCAB44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B7D254FE20E910D100CCAB44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7D2550320E910D100CCAB44 /* Modem-ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Modem-ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7D2550720E910D100CCAB44 /* Modem_ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modem_ExampleTests.swift; sourceTree = "<group>"; };
+		B7D2550920E910D100CCAB44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7D254EC20E910C400CCAB44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7D2550020E910D100CCAB44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B701BA4020E9503600BC07A3 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				B701BA4120E9503600BC07A3 /* Framework */,
+				B701BA4B20E9503600BC07A3 /* App Additions */,
+			);
+			name = Router;
+			path = ../Router;
+			sourceTree = "<group>";
+		};
+		B701BA4120E9503600BC07A3 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				B701BA4220E9503600BC07A3 /* UIViewController+Router.swift */,
+				B701BA4320E9503600BC07A3 /* PresentationContext.swift */,
+				B701BA4420E9503600BC07A3 /* UserActivityType.swift */,
+				B701BA4520E9503600BC07A3 /* UserActivityConvertible.swift */,
+				B701BA4620E9503600BC07A3 /* Encodable+Dictionary.swift */,
+				B701BA4720E9503600BC07A3 /* Router.swift */,
+				B701BA4820E9503600BC07A3 /* PopoverConfiguration.swift */,
+				B701BA4920E9503600BC07A3 /* UIApplicationShortcutItem+UserActivityConvertible.swift */,
+				B701BA4A20E9503600BC07A3 /* Route.swift */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		B701BA4B20E9503600BC07A3 /* App Additions */ = {
+			isa = PBXGroup;
+			children = (
+				B701BA4C20E9503600BC07A3 /* INShortcut+UserActivityConvertible.swift */,
+				B701BA4D20E9503600BC07A3 /* URL+UserActivityConvertible.swift */,
+				B701BA4E20E9503600BC07A3 /* UNNotificationContent+UserActivityConvertible.swift */,
+			);
+			path = "App Additions";
+			sourceTree = "<group>";
+		};
+		B7D254E620E910C300CCAB44 = {
+			isa = PBXGroup;
+			children = (
+				B701BA4020E9503600BC07A3 /* Router */,
+				B7D254F120E910C400CCAB44 /* Modem-Example */,
+				B7D2550620E910D100CCAB44 /* Modem-ExampleTests */,
+				B7D254F020E910C400CCAB44 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B7D254F020E910C400CCAB44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7D254EF20E910C400CCAB44 /* Modem-Example.app */,
+				B7D2550320E910D100CCAB44 /* Modem-ExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7D254F120E910C400CCAB44 /* Modem-Example */ = {
+			isa = PBXGroup;
+			children = (
+				B7D254F220E910C400CCAB44 /* AppDelegate.swift */,
+				B701BA3420E94F5E00BC07A3 /* RootViewController.swift */,
+				B701BA3820E94F6D00BC07A3 /* TweetViewController.swift */,
+				B701BA3A20E94F7700BC07A3 /* UNNotificationContentViewController.swift */,
+				B701BA3C20E94F8500BC07A3 /* UIViewController+RouterPrintStack.swift */,
+				B701BA3E20E94FD300BC07A3 /* UserActivityViewController.swift */,
+				B701BA3620E94F6500BC07A3 /* Tweet.swift */,
+				B7D254F620E910C400CCAB44 /* Main.storyboard */,
+				B7D254F920E910D100CCAB44 /* Assets.xcassets */,
+				B7D254FB20E910D100CCAB44 /* LaunchScreen.storyboard */,
+				B7D254FE20E910D100CCAB44 /* Info.plist */,
+			);
+			path = "Modem-Example";
+			sourceTree = "<group>";
+		};
+		B7D2550620E910D100CCAB44 /* Modem-ExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				B7D2550720E910D100CCAB44 /* Modem_ExampleTests.swift */,
+				B7D2550920E910D100CCAB44 /* Info.plist */,
+			);
+			path = "Modem-ExampleTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7D254EE20E910C400CCAB44 /* Modem-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7D2550C20E910D100CCAB44 /* Build configuration list for PBXNativeTarget "Modem-Example" */;
+			buildPhases = (
+				B7D254EB20E910C400CCAB44 /* Sources */,
+				B7D254EC20E910C400CCAB44 /* Frameworks */,
+				B7D254ED20E910C400CCAB44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Modem-Example";
+			productName = "Modem-Example";
+			productReference = B7D254EF20E910C400CCAB44 /* Modem-Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B7D2550220E910D100CCAB44 /* Modem-ExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7D2550F20E910D100CCAB44 /* Build configuration list for PBXNativeTarget "Modem-ExampleTests" */;
+			buildPhases = (
+				B7D254FF20E910D100CCAB44 /* Sources */,
+				B7D2550020E910D100CCAB44 /* Frameworks */,
+				B7D2550120E910D100CCAB44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7D2550520E910D100CCAB44 /* PBXTargetDependency */,
+			);
+			name = "Modem-ExampleTests";
+			productName = "Modem-ExampleTests";
+			productReference = B7D2550320E910D100CCAB44 /* Modem-ExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7D254E720E910C300CCAB44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Mergesort;
+				TargetAttributes = {
+					B7D254EE20E910C400CCAB44 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					B7D2550220E910D100CCAB44 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = B7D254EE20E910C400CCAB44;
+					};
+				};
+			};
+			buildConfigurationList = B7D254EA20E910C300CCAB44 /* Build configuration list for PBXProject "Modem-Example" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7D254E620E910C300CCAB44;
+			productRefGroup = B7D254F020E910C400CCAB44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7D254EE20E910C400CCAB44 /* Modem-Example */,
+				B7D2550220E910D100CCAB44 /* Modem-ExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7D254ED20E910C400CCAB44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7D254FD20E910D100CCAB44 /* LaunchScreen.storyboard in Resources */,
+				B7D254FA20E910D100CCAB44 /* Assets.xcassets in Resources */,
+				B7D254F820E910C400CCAB44 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7D2550120E910D100CCAB44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7D254EB20E910C400CCAB44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B701BA5220E9503600BC07A3 /* UserActivityConvertible.swift in Sources */,
+				B701BA5A20E9503600BC07A3 /* UNNotificationContent+UserActivityConvertible.swift in Sources */,
+				B701BA5020E9503600BC07A3 /* PresentationContext.swift in Sources */,
+				B7D254F320E910C400CCAB44 /* AppDelegate.swift in Sources */,
+				B701BA4F20E9503600BC07A3 /* UIViewController+Router.swift in Sources */,
+				B701BA3B20E94F7700BC07A3 /* UNNotificationContentViewController.swift in Sources */,
+				B701BA5720E9503600BC07A3 /* Route.swift in Sources */,
+				B701BA3920E94F6D00BC07A3 /* TweetViewController.swift in Sources */,
+				B701BA5520E9503600BC07A3 /* PopoverConfiguration.swift in Sources */,
+				B701BA5120E9503600BC07A3 /* UserActivityType.swift in Sources */,
+				B701BA5320E9503600BC07A3 /* Encodable+Dictionary.swift in Sources */,
+				B701BA3F20E94FD300BC07A3 /* UserActivityViewController.swift in Sources */,
+				B701BA5620E9503600BC07A3 /* UIApplicationShortcutItem+UserActivityConvertible.swift in Sources */,
+				B701BA5820E9503600BC07A3 /* INShortcut+UserActivityConvertible.swift in Sources */,
+				B701BA3520E94F5E00BC07A3 /* RootViewController.swift in Sources */,
+				B701BA3D20E94F8500BC07A3 /* UIViewController+RouterPrintStack.swift in Sources */,
+				B701BA5920E9503600BC07A3 /* URL+UserActivityConvertible.swift in Sources */,
+				B701BA3720E94F6500BC07A3 /* Tweet.swift in Sources */,
+				B701BA5420E9503600BC07A3 /* Router.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7D254FF20E910D100CCAB44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7D2550820E910D100CCAB44 /* Modem_ExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B7D2550520E910D100CCAB44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7D254EE20E910C400CCAB44 /* Modem-Example */;
+			targetProxy = B7D2550420E910D100CCAB44 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B7D254F620E910C400CCAB44 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7D254F720E910C400CCAB44 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B7D254FB20E910D100CCAB44 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7D254FC20E910D100CCAB44 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B7D2550A20E910D100CCAB44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B7D2550B20E910D100CCAB44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7D2550D20E910D100CCAB44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 78QN6DA972;
+				INFOPLIST_FILE = "Modem-Example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mergesort.Modem-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B7D2550E20E910D100CCAB44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 78QN6DA972;
+				INFOPLIST_FILE = "Modem-Example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mergesort.Modem-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B7D2551020E910D100CCAB44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 78QN6DA972;
+				INFOPLIST_FILE = "Modem-ExampleTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mergesort.Modem-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Modem-Example.app/Modem-Example";
+			};
+			name = Debug;
+		};
+		B7D2551120E910D100CCAB44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 78QN6DA972;
+				INFOPLIST_FILE = "Modem-ExampleTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mergesort.Modem-ExampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Modem-Example.app/Modem-Example";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7D254EA20E910C300CCAB44 /* Build configuration list for PBXProject "Modem-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7D2550A20E910D100CCAB44 /* Debug */,
+				B7D2550B20E910D100CCAB44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7D2550C20E910D100CCAB44 /* Build configuration list for PBXNativeTarget "Modem-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7D2550D20E910D100CCAB44 /* Debug */,
+				B7D2550E20E910D100CCAB44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7D2550F20E910D100CCAB44 /* Build configuration list for PBXNativeTarget "Modem-ExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7D2551020E910D100CCAB44 /* Debug */,
+				B7D2551120E910D100CCAB44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7D254E720E910C300CCAB44 /* Project object */;
+}
