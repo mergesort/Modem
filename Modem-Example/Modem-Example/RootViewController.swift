@@ -8,39 +8,32 @@
 
 import UIKit
 
-class RootViewController: UIViewController {
+final class RootViewController: UIViewController {
 
-    private let loadButton: UIButton = {
-        let button = UIButton(type: .system)
-        button.setTitleColor(UIColor.black, for: .normal)
-        button.setTitle("  Load a Tweet  ", for: .normal)
-        button.titleLabel?.font = UIFont.preferredFont(forTextStyle: .headline)
-        button.backgroundColor = UIColor.white
-        button.layer.cornerRadius = 4.0
+    let nextScreenViewController: NextScreenViewController = {
+        let initialScreenData = InitialScreenData(text: "Welcome to the app")
 
-        return button
+        return NextScreenViewController(userActivityConvertible: initialScreenData)
     }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         self.view.backgroundColor = #colorLiteral(red: 0.1764705926, green: 0.01176470611, blue: 0.5607843399, alpha: 1)
+        self.addChild(self.nextScreenViewController)
+        self.view.addSubview(self.nextScreenViewController.view)
+        self.nextScreenViewController.didMove(toParent: self)
 
-        self.view.addSubview(self.loadButton)
+        self.nextScreenViewController.view.translatesAutoresizingMaskIntoConstraints = false
 
-        self.loadButton.translatesAutoresizingMaskIntoConstraints = false
-        self.loadButton.centerXAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.centerXAnchor).isActive = true
-        self.loadButton.centerYAnchor.constraint(equalTo: self.view.safeAreaLayoutGuide.centerYAnchor).isActive = true
+        let viewControllerConstraints = [
+            self.nextScreenViewController.view.leadingAnchor.constraint(equalTo: self.view.leadingAnchor),
+            self.nextScreenViewController.view.trailingAnchor.constraint(equalTo: self.view.trailingAnchor),
+            self.nextScreenViewController.view.topAnchor.constraint(equalTo: self.view.topAnchor),
+            self.nextScreenViewController.view.bottomAnchor.constraint(equalTo: self.view.bottomAnchor),
+        ]
 
-        self.loadButton.addTarget(self, action: #selector(loadButtonTapped), for: .touchUpInside)
-    }
-
-    @objc func loadButtonTapped() {
-        let tweet = Tweet(statusId: "123", text: "I speak many languages, I am very cutlured.")
-        let viewController = TweetViewController(tweet: tweet)
-        let tweetRoute = Route(destination: viewController, activity: tweet)
-
-        Router.navigate(from: self, to: tweetRoute, withAction: .present(animated: true, completion: nil))
+        NSLayoutConstraint.activate(viewControllerConstraints)
     }
 
 }

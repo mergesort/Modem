@@ -1,8 +1,6 @@
 # Modem
 A routing, serialization, and deep link handling framework all wrapped up in one
 
-## This is experimental and a work in progress! I wouldn't recommend using it in production.
-
 ---
 
 README in progress:

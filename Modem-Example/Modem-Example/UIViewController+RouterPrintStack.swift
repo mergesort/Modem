@@ -16,6 +16,12 @@ extension UIViewController {
             .forEach { print($0.debugDescription) }
     }
 
+    func routerStack() -> String {
+        return Router.items
+            .map { $0.activity }
+            .reduce("Stack count: \(Router.items.count)\n\n", { $0 + $1.debugDescription + "\n\n" })
+    }
+
 }
 
 extension NSUserActivity {

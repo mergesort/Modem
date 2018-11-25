@@ -70,7 +70,8 @@ class UserActivityViewController: UIViewController {
         self.printRouterStack()
     }
 
-    @objc func dismissButtonTapped() {
+    @objc
+    func dismissButtonTapped() {
         Router.navigate(with: DismissAction.dismiss(self, animated: true, completion: nil))
     }
 

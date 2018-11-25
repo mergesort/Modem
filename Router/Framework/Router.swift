@@ -1,13 +1,13 @@
 import UIKit
 
 struct Router {
-    
+
     static var items: [Route] = []
-    
-    static func navigate(from viewController: UIViewController, to route: Route, withAction presentationItem: PresentationAction) {
+
+    static func navigate(from viewController: UIViewController, to route: Route) {
         self.items.append(route)
         
-        switch presentationItem {
+        switch route.action {
             
         case .custom(let delegate):
             break
@@ -19,7 +19,8 @@ struct Router {
             viewController.present(route.destination, animated: animated, completion: completion)
             
         case .push(let animated):
-            viewController.navigationController?.pushViewController(route.destination, animated: animated)
+            guard let viewController = viewController as? UINavigationController else { fatalError("Tried to push from a non-navigation controller UIViewController subclass") }
+            viewController.pushViewController(route.destination, animated: animated)
             
         case .show(let sender):
             viewController.show(route.destination, sender: sender)

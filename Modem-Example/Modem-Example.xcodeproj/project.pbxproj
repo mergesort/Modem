@@ -7,12 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B701BA3520E94F5E00BC07A3 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B701BA3420E94F5E00BC07A3 /* RootViewController.swift */; };
+		7042BC8F210F684600EA5DF9 /* InitialScreenData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7042BC8E210F684600EA5DF9 /* InitialScreenData.swift */; };
+		B701BA3520E94F5E00BC07A3 /* NextScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B701BA3420E94F5E00BC07A3 /* NextScreenViewController.swift */; };
 		B701BA3720E94F6500BC07A3 /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B701BA3620E94F6500BC07A3 /* Tweet.swift */; };
-		B701BA3920E94F6D00BC07A3 /* TweetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B701BA3820E94F6D00BC07A3 /* TweetViewController.swift */; };
-		B701BA3B20E94F7700BC07A3 /* UNNotificationContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B701BA3A20E94F7700BC07A3 /* UNNotificationContentViewController.swift */; };
 		B701BA3D20E94F8500BC07A3 /* UIViewController+RouterPrintStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = B701BA3C20E94F8500BC07A3 /* UIViewController+RouterPrintStack.swift */; };
-		B701BA3F20E94FD300BC07A3 /* UserActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B701BA3E20E94FD300BC07A3 /* UserActivityViewController.swift */; };
 		B701BA4F20E9503600BC07A3 /* UIViewController+Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = B701BA4220E9503600BC07A3 /* UIViewController+Router.swift */; };
 		B701BA5020E9503600BC07A3 /* PresentationContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B701BA4320E9503600BC07A3 /* PresentationContext.swift */; };
 		B701BA5120E9503600BC07A3 /* UserActivityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B701BA4420E9503600BC07A3 /* UserActivityType.swift */; };
@@ -25,6 +23,9 @@
 		B701BA5820E9503600BC07A3 /* INShortcut+UserActivityConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = B701BA4C20E9503600BC07A3 /* INShortcut+UserActivityConvertible.swift */; };
 		B701BA5920E9503600BC07A3 /* URL+UserActivityConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = B701BA4D20E9503600BC07A3 /* URL+UserActivityConvertible.swift */; };
 		B701BA5A20E9503600BC07A3 /* UNNotificationContent+UserActivityConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = B701BA4E20E9503600BC07A3 /* UNNotificationContent+UserActivityConvertible.swift */; };
+		B7309BC221AA1E9A001378A7 /* UserActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7309BC021AA1E9A001378A7 /* UserActivityViewController.swift */; };
+		B7309BC321AA1E9A001378A7 /* UNNotificationContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7309BC121AA1E9A001378A7 /* UNNotificationContentViewController.swift */; };
+		B7309BC521AA1FDB001378A7 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7309BC421AA1FDA001378A7 /* RootViewController.swift */; };
 		B7D254F320E910C400CCAB44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D254F220E910C400CCAB44 /* AppDelegate.swift */; };
 		B7D254F820E910C400CCAB44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7D254F620E910C400CCAB44 /* Main.storyboard */; };
 		B7D254FA20E910D100CCAB44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7D254F920E910D100CCAB44 /* Assets.xcassets */; };
@@ -43,12 +44,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B701BA3420E94F5E00BC07A3 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		7042BC8E210F684600EA5DF9 /* InitialScreenData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialScreenData.swift; sourceTree = "<group>"; };
+		B701BA3420E94F5E00BC07A3 /* NextScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextScreenViewController.swift; sourceTree = "<group>"; };
 		B701BA3620E94F6500BC07A3 /* Tweet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
-		B701BA3820E94F6D00BC07A3 /* TweetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetViewController.swift; sourceTree = "<group>"; };
-		B701BA3A20E94F7700BC07A3 /* UNNotificationContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UNNotificationContentViewController.swift; sourceTree = "<group>"; };
 		B701BA3C20E94F8500BC07A3 /* UIViewController+RouterPrintStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+RouterPrintStack.swift"; sourceTree = "<group>"; };
-		B701BA3E20E94FD300BC07A3 /* UserActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserActivityViewController.swift; sourceTree = "<group>"; };
 		B701BA4220E9503600BC07A3 /* UIViewController+Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Router.swift"; sourceTree = "<group>"; };
 		B701BA4320E9503600BC07A3 /* PresentationContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentationContext.swift; sourceTree = "<group>"; };
 		B701BA4420E9503600BC07A3 /* UserActivityType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserActivityType.swift; sourceTree = "<group>"; };
@@ -61,6 +60,9 @@
 		B701BA4C20E9503600BC07A3 /* INShortcut+UserActivityConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "INShortcut+UserActivityConvertible.swift"; sourceTree = "<group>"; };
 		B701BA4D20E9503600BC07A3 /* URL+UserActivityConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URL+UserActivityConvertible.swift"; sourceTree = "<group>"; };
 		B701BA4E20E9503600BC07A3 /* UNNotificationContent+UserActivityConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UNNotificationContent+UserActivityConvertible.swift"; sourceTree = "<group>"; };
+		B7309BC021AA1E9A001378A7 /* UserActivityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserActivityViewController.swift; sourceTree = "<group>"; };
+		B7309BC121AA1E9A001378A7 /* UNNotificationContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UNNotificationContentViewController.swift; sourceTree = "<group>"; };
+		B7309BC421AA1FDA001378A7 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		B7D254EF20E910C400CCAB44 /* Modem-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Modem-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7D254F220E910C400CCAB44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B7D254F720E910C400CCAB44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -149,12 +151,13 @@
 			isa = PBXGroup;
 			children = (
 				B7D254F220E910C400CCAB44 /* AppDelegate.swift */,
-				B701BA3420E94F5E00BC07A3 /* RootViewController.swift */,
-				B701BA3820E94F6D00BC07A3 /* TweetViewController.swift */,
-				B701BA3A20E94F7700BC07A3 /* UNNotificationContentViewController.swift */,
+				B7309BC421AA1FDA001378A7 /* RootViewController.swift */,
+				B701BA3420E94F5E00BC07A3 /* NextScreenViewController.swift */,
 				B701BA3C20E94F8500BC07A3 /* UIViewController+RouterPrintStack.swift */,
-				B701BA3E20E94FD300BC07A3 /* UserActivityViewController.swift */,
 				B701BA3620E94F6500BC07A3 /* Tweet.swift */,
+				7042BC8E210F684600EA5DF9 /* InitialScreenData.swift */,
+				B7309BC121AA1E9A001378A7 /* UNNotificationContentViewController.swift */,
+				B7309BC021AA1E9A001378A7 /* UserActivityViewController.swift */,
 				B7D254F620E910C400CCAB44 /* Main.storyboard */,
 				B7D254F920E910D100CCAB44 /* Assets.xcassets */,
 				B7D254FB20E910D100CCAB44 /* LaunchScreen.storyboard */,
@@ -275,19 +278,20 @@
 			files = (
 				B701BA5220E9503600BC07A3 /* UserActivityConvertible.swift in Sources */,
 				B701BA5A20E9503600BC07A3 /* UNNotificationContent+UserActivityConvertible.swift in Sources */,
+				B7309BC221AA1E9A001378A7 /* UserActivityViewController.swift in Sources */,
+				7042BC8F210F684600EA5DF9 /* InitialScreenData.swift in Sources */,
 				B701BA5020E9503600BC07A3 /* PresentationContext.swift in Sources */,
 				B7D254F320E910C400CCAB44 /* AppDelegate.swift in Sources */,
 				B701BA4F20E9503600BC07A3 /* UIViewController+Router.swift in Sources */,
-				B701BA3B20E94F7700BC07A3 /* UNNotificationContentViewController.swift in Sources */,
 				B701BA5720E9503600BC07A3 /* Route.swift in Sources */,
-				B701BA3920E94F6D00BC07A3 /* TweetViewController.swift in Sources */,
 				B701BA5520E9503600BC07A3 /* PopoverConfiguration.swift in Sources */,
+				B7309BC321AA1E9A001378A7 /* UNNotificationContentViewController.swift in Sources */,
+				B7309BC521AA1FDB001378A7 /* RootViewController.swift in Sources */,
 				B701BA5120E9503600BC07A3 /* UserActivityType.swift in Sources */,
 				B701BA5320E9503600BC07A3 /* Encodable+Dictionary.swift in Sources */,
-				B701BA3F20E94FD300BC07A3 /* UserActivityViewController.swift in Sources */,
 				B701BA5620E9503600BC07A3 /* UIApplicationShortcutItem+UserActivityConvertible.swift in Sources */,
 				B701BA5820E9503600BC07A3 /* INShortcut+UserActivityConvertible.swift in Sources */,
-				B701BA3520E94F5E00BC07A3 /* RootViewController.swift in Sources */,
+				B701BA3520E94F5E00BC07A3 /* NextScreenViewController.swift in Sources */,
 				B701BA3D20E94F8500BC07A3 /* UIViewController+RouterPrintStack.swift in Sources */,
 				B701BA5920E9503600BC07A3 /* URL+UserActivityConvertible.swift in Sources */,
 				B701BA3720E94F6500BC07A3 /* Tweet.swift in Sources */,
