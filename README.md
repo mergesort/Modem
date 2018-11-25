@@ -3,6 +3,8 @@ A routing, serialization, and deep link handling framework all wrapped up in one
 
 ---
 
+### Extremely experimental — not really meant to be used in production yet.
+
 README in progress:
 
 - NSUserActivity is underused externally, but has become a foundational building block of iOS navigation and actions.
